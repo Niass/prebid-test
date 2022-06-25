@@ -76,6 +76,8 @@
     <script type="text/javascript">
         invokeVideoPlayer = function(url) {
       console.log('videoUrl', url)
+      const bids = pbjs.getHighestCpmBids()
+      console.log('bids high', bids);
         AdPlayerPro('playerContainerADP').setup({
           "file": "https://static.adplayer.pro/video/640.mp4",
           "width": 640,
