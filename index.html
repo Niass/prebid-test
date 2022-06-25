@@ -52,7 +52,7 @@
       });
 
       pbjs.requestBids({
-        bidsBackHandler: function (bids) {
+        bidsBackHandler: function () {
           var videoUrl = pbjs.adServers.dfp.buildVideoUrl({
             adUnit: videoAdUnit,
             params: {
