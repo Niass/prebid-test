@@ -1,101 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Prebid Display/Video Merged Auction with Adloox Integration</title>
 
-        <script async src="./prebid.js"></script>
+<head>
+  <title>Prebid Display/Video Merged Auction with Adloox Integration</title>
+  <!-- Google Publisher Tag -->
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+  <script async src="./prebid.js"></script>
 
-<script type="text/javascript" src="https://static.adplayer.pro/player/demo.js"></script>
-<script>
-  var pbjs = pbjs || {};
-  pbjs.que = pbjs.que || [];
+  <script type="text/javascript" src="https://static.adplayer.pro/player/demo.js"></script>
+  <script>
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
 
-  // define invokeVideoPlayer in advance in case we get the bids back from prebid before the entire page loads
+    // define invokeVideoPlayer in advance in case we get the bids back from prebid before the entire page loads
 
-  var tempTag = false;
-  var invokeVideoPlayer = function(url) {
+    var tempTag = false;
+    var invokeVideoPlayer = function (url) {
       tempTag = url;
-  }
+    }
 
-  var videoAdUnit = {
+    var videoAdUnit = {
       code: 'video1',
       mediaTypes: {
-          video: {
-                  context: 'instream',
-                  playerSize: [640, 480],
-                  mimes: ['video/mp4'],
-                  protocols: [1, 2, 3, 4, 5, 6, 7, 8],
-                  playbackmethod: [2],
-                  skip: 1
-          }
+        video: {
+          context: 'instream',
+          playerSize: [640, 480],
+          mimes: ['video/mp4'],
+          protocols: [1, 2, 3, 4, 5, 6, 7, 8],
+          playbackmethod: [2],
+          skip: 1
+        }
       },
       bids: [{
-          bidder: 'bliink',
-          params: {
-              tagId: '8121',
-              placement: 'video',
+        bidder: 'bliink',
+        params: {
+          tagId: '8121',
+          placement: 'video',
 
-          }
+        }
       }]
-  };
+    };
 
-  pbjs.que.push(function() {
+    pbjs.que.push(function () {
       pbjs.addAdUnits(videoAdUnit); // add your ad units to the bid request
 
       pbjs.setConfig({
-          debug: true,
-          cache: {
-              url: 'https://prebid.adnxs.com/pbc/v1/cache'
-          }
+        debug: true,
+        cache: {
+          url: 'https://prebid.adnxs.com/pbc/v1/cache'
+        }
       });
 
       pbjs.requestBids({
-          bidsBackHandler: function(bids) {
-              var videoUrl = pbjs.adServers.dfp.buildVideoUrl({
-                  adUnit: videoAdUnit,
-                  params: {
-                      iu: '/19968336/prebid_cache_video_adunit',
-                      cust_params: {
-                          section: 'blog',
-                          anotherKey: 'anotherValue'
-                      },
-                      output: 'vast'
-                  }
-              });
-              invokeVideoPlayer(videoUrl);
+        bidsBackHandler: function (bids) {
+          var videoUrl = pbjs.adServers.dfp.buildVideoUrl({
+            adUnit: videoAdUnit,
+            params: {
+              iu: '/19968336/prebid_cache_video_adunit',
+              cust_params: {
+                section: 'blog',
+                anotherKey: 'anotherValue'
+              },
+              output: 'vast'
             }
-        });
+          });
+          invokeVideoPlayer(videoUrl);
+        }
+      });
     });
-    
-</script>
+
+  </script>
 
 </head>
+
 <body>
-    <!--player div-->
-    <div id="playerContainerADP" style="width:640px; height:480px;"></div>
-    <script type="text/javascript">
-        invokeVideoPlayer = function(url) {
+  <!--player div-->
+  <div id="playerContainerADP" style="width:640px; height:480px;"></div>
+  <script type="text/javascript">
+    invokeVideoPlayer = function (url) {
       console.log('videoUrl', url)
       const bids = pbjs.getHighestCpmBids()
       console.log('bids high', bids);
-      const bidVideo = bids.find(bid=>bid.mediaType === 'video')
+      const bidVideo = bids.find(bid => bid.mediaType === 'video')
       console.log('bidVideo', bidVideo)
-        AdPlayerPro('playerContainerADP').setup({
-          "file": "https://static.adplayer.pro/video/640.mp4",
-          "width": 640,
-          "height": 480,
-          "autoStart": true,
-          "muted": true,
-          "advertising": {
-            "tag": bidVideo?.vastUrl ?? ''
-          }
-        });
-  };
+      AdPlayerPro('playerContainerADP').setup({
+        "file": "https://static.adplayer.pro/video/640.mp4",
+        "width": 640,
+        "height": 480,
+        "autoStart": true,
+        "muted": true,
+        "advertising": {
+          "tag": bidVideo?.vastUrl ?? ''
+        }
+      });
+    };
 
-  if (tempTag) {
-    invokeVideoPlayer(tempTag);
-    tempTag = false;
-  }
+    if (tempTag) {
+      invokeVideoPlayer(tempTag);
+      tempTag = false;
+    }
   </script>
-    </body>
+</body>
+
 </html>
