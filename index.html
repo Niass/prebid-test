@@ -227,10 +227,31 @@
         cache: {
           url: 'https://prebid.adnxs.com/pbc/v1/cache'
         },
-        consentManagement: {
-          cmpApi: 'iab',
-          timeout: 5000,
-          allowAuctionWithoutConsent: true
+        "consentManagement": {
+          "cmpApi": "static",
+          "consentData": {
+            "getTCData": {
+              "tcString": "CPYzd0APYzd0AAHABBENCOCsAP_AAAAAAAAAIutf_Xb3_j-5t0eY1f9_7-0zjhfdp-8N3f_X_L8X_2M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbe2dYGH9n93T-ZKY7-_77-_f-f53--_b_V_997bn9_9_P_9v8_v__4AAACQkAGAAIIuhoAMAAQRdEQAYAAgi6KgAwABBF0ZABgACCLo6ADAAEEXSEAGAAIIukoAMAAQRdKQAYAAgi6AAA.f_gAAAAAAAAA",
+              "cmpId": 10,
+              "cmpVersion": 23,
+              "tcfPolicyVersion": 2,
+              "gdprApplies": true,
+              "cmpStatus": "loaded",
+              "eventStatus": "tcloaded",
+              "purpose": {
+                "consents": {
+                  "1": true,
+                  "2": true
+                }
+              },
+              "vendor": {
+                "consents": {
+                  // add your GVL ID here and set to true to give consent within pbjs
+                  "658": true,     // Bliink
+                }
+              }
+            }
+          }
         },
         userSync: {
           iframeEnabled: true,
