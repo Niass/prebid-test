@@ -1,0 +1,421 @@
+<html>
+
+<head>
+  <title>Bienvenue dans Prebid test</title>
+  <meta name="description" content="Testing prebids">
+  <meta name="keywords" content="Bliink, Saber, Prebid">
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+  <script async src="./newprebid.js"></script>
+  <script type="text/javascript" src="https://static.adplayer.pro/player/demo.js"></script>
+  <script>
+    (function (window, document) {
+      if (!window.__cmp) {
+        window.__cmp = (function () {
+          var listen = window.attachEvent || window.addEventListener;
+          listen('message', function (event) {
+            window.__cmp.receiveMessage(event);
+          }, false);
+
+          function addLocatorFrame() {
+            if (!window.frames['__cmpLocator']) {
+              if (document.body) {
+                var frame = document.createElement('iframe');
+                frame.style.display = 'none';
+                frame.name = '__cmpLocator';
+                document.body.appendChild(frame);
+              } else {
+                setTimeout(addLocatorFrame, 5);
+              }
+            }
+          }
+          addLocatorFrame();
+
+          var commandQueue = [];
+          var cmp = function (command, parameter, callback) {
+            if (command === 'ping') {
+              if (callback) {
+                callback({
+                  gdprAppliesGlobally: !!(window.__cmp && window.__cmp.config && window.__cmp.config.storeConsentGlobally),
+                  cmpLoaded: false
+                });
+              }
+            } else {
+              commandQueue.push({
+                command: command,
+                parameter: parameter,
+                callback: callback
+              });
+            }
+          }
+          cmp.commandQueue = commandQueue;
+          cmp.receiveMessage = function (event) {
+            var data = event && event.data && event.data.__cmpCall;
+            if (data) {
+              commandQueue.push({
+                callId: data.callId,
+                command: data.command,
+                parameter: data.parameter,
+                event: event
+              });
+            }
+          };
+          cmp.config = {
+            logging: 'debug',
+          }
+          console.log('bliink cmp', cmp.config, commandQueue)
+          return cmp;
+        }());
+        var t = document.createElement('script');
+        t.async = false;
+        t.src = 'https://acdn.adnxs.com/cmp/cmp.bundle.js';
+        var tag = document.getElementsByTagName('head')[0];
+        tag.appendChild(t);
+      }
+    })(window, document);
+    window.__cmp('showConsentTool');
+  </script>
+
+  <script>
+    var PREBID_TIMEOUT = 700;
+    var FAILSAFE_TIMEOUT = 2500;
+    var tempTag = false;
+    var domId = false;
+    var invokeVideoPlayer = function (url, id) {
+      tempTag = url;
+      domId = id;
+    }
+    var videoAdUnit = [
+      {
+        code: 'video1',
+        mediaTypes: {
+          video: {
+            context: 'instream',
+            playerSize: [640, 480],
+            mimes: ['video/mp4'],
+            protocols: [1, 2, 3, 4, 5, 6, 7, 8],
+            playbackmethod: [2],
+            skip: 1
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              tagId: '8121',
+              placement: 'video',
+            }
+          },
+        ]
+      },
+      {
+        code: 'video2',
+        mediaTypes: {
+          video: {
+            context: 'instream',
+            playerSize: [640, 480],
+            mimes: ['video/mp4'],
+            protocols: [1, 2, 3, 4, 5, 6, 7, 8],
+            playbackmethod: [2],
+            skip: 1
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              tagId: '8123',
+              placement: 'video',
+            }
+          },
+        ]
+      },
+    ];
+
+
+    var adUnits = [
+
+      {
+        code: 'test1',
+        mediaTypes: {
+          banner: {
+            sizes: [[600, 250], [300, 600]]
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              placement: 'banner',
+              tagId: '81'
+            }
+          }
+        ]
+      },
+      {
+        code: 'test2',
+        mediaTypes: {
+          banner: {
+            sizes: [[300, 250], [300, 600]]
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              placement: 'banner',
+              tagId: '210'
+            }
+          }
+        ]
+      },
+      {
+        code: 'test3',
+        mediaTypes: {
+          banner: {
+            sizes: [[300, 250], [600, 300]]
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              placement: 'banner',
+              tagId: '810'
+            }
+          }
+        ]
+      },
+      {
+        code: 'test4',
+        mediaTypes: {
+          banner: {
+            sizes: [[600, 280], [300, 600]]
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              placement: 'banner',
+              tagId: '811'
+            }
+          }
+        ]
+      },
+    ];
+
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+
+  </script>
+
+  <script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function () {
+      googletag.pubads().disableInitialLoad();
+    });
+    function renderAllAdUnits() {
+      // renderVideo()
+      var winners = pbjs.getHighestCpmBids();
+      console.log('winners', winners)
+      for (var i = 0; i < winners.length; i++) {
+        if (winners[i].mediaType === 'video') {
+          console.log('rendering video***', winners[i])
+          renderVideo(winners[i])
+          renderOne(winners[i]);
+        } else {
+          renderOne(winners[i]);
+
+        }
+      }
+    }
+    function renderOne(winningBid) {
+      if (winningBid && winningBid.adId) {
+        var div = document.getElementById(winningBid.adUnitCode);
+        if (div) {
+          let iframe = document.createElement('iframe');
+          iframe.frameBorder = '0';
+          div.appendChild(iframe);
+          var iframeDoc = iframe.contentWindow.document;
+          pbjs.renderAd(iframeDoc, winningBid.adId);
+        }
+      }
+
+    }
+    function renderVideo(bid) {
+      var videoUrl_ = bid.vastUrl;
+      console.log('videoUrl_', videoUrl_)
+      invokeVideoPlayer(videoUrl_, bid.adUnitCode);
+    }
+
+    pbjs.que.push(function () {
+      pbjs.addAdUnits(adUnits);
+      pbjs.addAdUnits(videoAdUnit);
+      pbjs.setConfig({
+        "schain": {
+          "validation": "strict",
+          "config": {
+            "ver": "1.0",
+            "complete": 1,
+            "nodes": [
+              {
+                "asi": "indirectseller.com",
+                "sid": "00001",
+                "hp": 1
+              }
+            ]
+          }
+        },
+        cache: {
+          url: 'https://prebid.adnxs.com/pbc/v1/cache'
+        },
+        "consentManagement": {
+          "cmpApi": "static",
+          "consentData": {
+            "getTCData": {
+              "tcString": "CPYzd0APYzd0AAHABBENCOCsAP_AAAAAAAAAIutf_Xb3_j-5t0eY1f9_7-0zjhfdp-8N3f_X_L8X_2M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbe2dYGH9n93T-ZKY7-_77-_f-f53--_b_V_997bn9_9_P_9v8_v__4AAACQkAGAAIIuhoAMAAQRdEQAYAAgi6KgAwABBF0ZABgACCLo6ADAAEEXSEAGAAIIukoAMAAQRdKQAYAAgi6AAA.f_gAAAAAAAAA",
+              "cmpId": 10,
+              "cmpVersion": 23,
+              "tcfPolicyVersion": 2,
+              "gdprApplies": true,
+              "cmpStatus": "loaded",
+              "eventStatus": "tcloaded",
+              "purpose": {
+                "consents": {
+                  "1": true,
+                  "2": true
+                }
+              },
+              "vendor": {
+                "consents": {
+                  // add your GVL ID here and set to true to give consent within pbjs
+                  "658": true,     // Bliink
+                }
+              }
+            }
+          }
+        },
+        userSync: {
+          iframeEnabled: true,
+          userIds: [{
+            name: "sharedId",
+            storage: {
+              type: "cookie",
+              name: `_pubcid`,         // create a cookie with this name
+              expires: 365             // expires in 1 years
+            }
+          }, {
+            name: "criteo",
+          }, {
+            name: "pubCommonId",
+            storage: {
+              type: "cookie",
+              name: "_pubcid",         // create a cookie with this name
+              expires: 365             // expires in 1 years
+            }
+          }, {
+            name: 'hadronId',
+            storage: {
+              name: 'hadronId',
+              type: 'html5'
+            }
+          }],
+          filterSettings: {
+            iframe: {
+              bidders: '*',
+              filter: 'include',
+            },
+          },
+        },
+        pubcid: {
+          enable: false
+        }
+      });
+      pbjs.requestBids({
+        bidsBackHandler: renderAllAdUnits,
+        timeout: PREBID_TIMEOUT
+      });
+    });
+
+    function sendAdserverRequest() {
+      console.log('sendAdserverRequest called')
+      const bids = pbjs.getHighestCpmBids('test')
+      const bidsResp = pbjs.getBidResponses()
+      console.log('bidsResp', bidsResp)
+      for (const property in bidsResp) {
+        const adm = bidsResp[property].bids[0]?.ad
+        console.log(`***${property}: ${bidsResp[property]}`);
+        console.log('adm*', adm, property)
+        document.querySelector(`#${property}`).insertAdjacentHTML('beforeend', adm)
+      }
+      // console.log('bids_', bidsResp)
+      // console.log('winner', bids[0], bids[0]?.ad)
+    }
+
+    setTimeout(function () {
+      // sendAdserverRequest();
+      console.log('timeout in main pbjs fired');
+    }, FAILSAFE_TIMEOUT);
+
+  </script>
+  <script>
+    googletag.cmd.push(function () {
+      googletag.defineSlot('/19968336/header-bid-tag-0', [[300, 250], [300, 600]], 'div-gpt-ad-1460505748561-0').addService(googletag.pubads());
+
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  </script>
+  <style>
+    .ads {
+      width: 650px;
+      height: 260px;
+      background-color: green;
+      margin: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Prebid.js Test</h2>
+  <h5>Div-1</h5>
+  <div id='test1'></div>
+  <div id='test2'></div>
+  <div id='test3'></div>
+  <div id='test4'></div>
+  <div id="video1" style="width:640px; height:480px;"></div>
+  <div style="margin-bottom: 30px;"></div>
+  <div id="video2" style="width:640px; height:480px;"></div>
+  </div>
+  <div style="width:604px; height:341px;">
+    <div id="akamai-player"></div>
+  </div>
+  <script type="text/javascript">
+    invokeVideoPlayer = function (url, id) {
+      console.log('videoUrl', url)
+      const bids = pbjs.getHighestCpmBids()
+      console.log('bids high', bids);
+      const bidVideo = bids.find(bid => bid.mediaType === 'video')
+      console.log('bidVideo', bidVideo)
+      AdPlayerPro(id).setup({
+        "file": "https://static.adplayer.pro/video/640.mp4",
+        "width": 640,
+        "height": 480,
+        "autoStart": true,
+        "muted": true,
+        "advertising": {
+          "tag": bidVideo?.vastUrl ?? ''
+        }
+      });
+    };
+
+    if (tempTag && domId) {
+      invokeVideoPlayer(tempTag, domId);
+      tempTag = false;
+      domId = false;
+    }
+  </script>
+</body>
+
+</html>
