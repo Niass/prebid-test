@@ -253,6 +253,20 @@
       pbjs.addAdUnits(adUnits);
       pbjs.addAdUnits(videoAdUnit);
       pbjs.setConfig({
+        "schain": {
+          "validation": "strict",
+          "config": {
+            "ver": "1.0",
+            "complete": 1,
+            "nodes": [
+              {
+                "asi": "indirectseller.com",
+                "sid": "00001",
+                "hp": 1
+              }
+            ]
+          }
+        },
         cache: {
           url: 'https://prebid.adnxs.com/pbc/v1/cache'
         },
