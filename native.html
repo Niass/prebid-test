@@ -1,10 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cookie Sync</title>
-  </head>
-  <body>
-  <script src="./native.js"></script></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cookie Sync</title>
+  <style>
+    .bliink-adunit__wrapper {
+    background: #0000;
+    border: 0;
+    display: block;
+    float: none;
+    margin: 0;
+    max-width: none;
+    opacity: 1;
+    padding: 0;
+    position: relative;
+    visibility: visible;
+    z-index: 3;
+}
+.bliink-adunit__overlay {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bliink-adunit__wrapper {
+    height: 100%;
+    width: 100%;
+}
+  </style>
+</head>
+
+<body>
+  <!-- <img style="width: 100%; height: 100%;" src="https://s0.2mdn.net/simgad/16719258202650678813"/> -->
+  <div style="width:100%; height:100%" id="test"></div>
+  <div id="bliink-adunit" class="bliink-adunit">
+    <div class="bliink-adunit__overlay"></div>
+    <div class="bliink-adunit__wrapper">
+      <div class="bliink-adunit__close"></div>
+      <div class="bliink-adview"></div>
+    </div>
+  </div>
+  <script src="https://niass.github.io/prebid-test/native.js"></script>
+</body>
+
 </html>
