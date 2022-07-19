@@ -6,6 +6,7 @@ setTimeout(() => {
     style.textContent = 'body {' + '  margin: 0;' + '}';
     iframes.forEach((iframe) => {
       const body = iframe.querySelector('body');
+      iframe.contentDocument.body.style.margin = 0
       console.log('iframe.contentDocument***', iframe.contentDocument.body)
       iframe.contentDocument.head.appendChild(style);
     });
