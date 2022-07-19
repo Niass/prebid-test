@@ -112,7 +112,7 @@
   /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
   
   "use strict";
-  eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helpers */ \"./src/helpers.ts\");\n/* harmony import */ var _Native__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Native */ \"./src/Native/index.ts\");\n\n\nvar ad = (0,_helpers__WEBPACK_IMPORTED_MODULE_0__.getNativeAd)();\nconsole.log('ad', ad);\nvar divDom = document.querySelector('.bliink-adview');\nvar testDom = document.getElementById('test');\nconsole.log('testDom', testDom);\nconsole.log('divDom', divDom);\nvar test = new _Native__WEBPACK_IMPORTED_MODULE_1__[\"default\"](ad, divDom, { width: 600, height: 900 });\nconsole.log('test****', test.render());\n\n\n//# sourceURL=webpack://native/./src/index.ts?");
+  eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./helpers */ \"./src/helpers.ts\");\n/* harmony import */ var _Native__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Native */ \"./src/Native/index.ts\");\n\n\nvar iframes = document.querySelectorAll('iframe');\nconsole.log('iframes***', iframes);\nvar ad = (0,_helpers__WEBPACK_IMPORTED_MODULE_0__.getNativeAd)();\nconsole.log('ad', ad);\nvar divDom = document.querySelector('.bliink-adview');\nvar testDom = document.getElementById('test');\nconsole.log('testDom', testDom);\nconsole.log('divDom', divDom);\nvar test = new _Native__WEBPACK_IMPORTED_MODULE_1__[\"default\"](ad, divDom, { width: 600, height: 900 });\nconsole.log('test****', test.render());\n\n\n//# sourceURL=webpack://native/./src/index.ts?");
   
   /***/ })
   
