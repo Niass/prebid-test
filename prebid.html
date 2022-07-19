@@ -202,6 +202,40 @@
           }
         ]
       },
+      {
+        code: 'test5',
+        mediaTypes: {
+          banner: {
+            sizes: [[320, 100], [300, 600]]
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              placement: 'banner',
+              tagId: '811'
+            }
+          }
+        ]
+      },
+      {
+        code: 'test6',
+        mediaTypes: {
+          banner: {
+            sizes: [[320, 50], [300, 600]]
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              placement: 'banner',
+              tagId: '811'
+            }
+          }
+        ]
+      },
     ];
 
     var pbjs = pbjs || {};
@@ -386,11 +420,12 @@
 
 <body>
   <h2>Prebid.js Test</h2>
-  <h5>Div-1</h5>
   <div id='test1'></div>
   <div id='test2'></div>
   <div id='test3'></div>
   <div id='test4'></div>
+  <div id='test5'></div>
+  <div id='test6'></div>
   <div id="video1" style="width:640px; height:480px;"></div>
   <div style="margin-bottom: 30px;"></div>
   <div id="video2" style="width:640px; height:480px;"></div>
