@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Player</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    .bliink-adunit__wrapper {
+      background: #0000;
+      border: 0;
+      display: block;
+      float: none;
+      margin: 0;
+      max-width: none;
+      opacity: 1;
+      padding: 0;
+      position: relative;
+      visibility: visible;
+      z-index: 3;
+      left: 0px !important;
+    }
+
+    .bliink-adunit__overlay {
+      position: absolute;
+      overflow: hidden;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .bliink-adunit__wrapper,
+    .bliink-adunit,
+    .bliink-adview {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="bliink-adunit" class="bliink-adunit">
+    <div class="bliink-adunit__overlay"></div>
+    <div class="bliink-adunit__wrapper">
+      <div class="bliink-adview"></div>
+    </div>
+  </div>
+  <script src="https://niass.github.io/prebid-test/video.js"></script>
+</body>
+
+</html>
