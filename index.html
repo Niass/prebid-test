@@ -101,61 +101,28 @@
           {
             bidder: 'bliink',
             params: {
-              tagId: '167',
+              tagId: '106',
               placement: 'video',
             }
           },
         ]
-      },
-      {
-        code: 'video2',
-        mediaTypes: {
-          video: {
-            context: 'instream',
-            playerSize: [640, 480],
-            mimes: ['video/mp4'],
-            protocols: [1, 2, 3, 4, 5, 6, 7, 8],
-            playbackmethod: [2],
-            skip: 1
-          }
-        },
-        bids: [
-          {
-            bidder: 'bliink',
-            params: {
-              tagId: '8123',
-              placement: 'video',
-            }
-          },
-        ]
-      },
+      }
     ];
 
-
+    const urlParams = new URLSearchParams(window.location.search);
+const bannerId = urlParams.get('bannerId');
+const size = urlParams.get('size');
+    const sizes = [[900, 300], [400, 200], [250, 600]]
+    if(size) {
+      let [w, h] = size.split('x')
+      sizes.push([+w, +h])
+    }
     var adUnits = [
-
-      {
-        code: 'test1',
-        mediaTypes: {
-          banner: {
-            sizes: [[600, 250], [300, 600]]
-          }
-        },
-        bids: [
-          {
-            bidder: 'bliink',
-            params: {
-              placement: 'banner',
-              tagId: '81'
-            }
-          }
-        ]
-      },
       {
         code: 'test2',
         mediaTypes: {
           banner: {
-            sizes: [[]]
+            sizes
           }
         },
         bids: [
@@ -163,7 +130,7 @@
             bidder: 'bliink',
             params: {
               placement: 'banner',
-              tagId: '105'
+              tagId: bannerId ?? '106'
             }
           }
         ]
@@ -172,7 +139,7 @@
         code: 'test3',
         mediaTypes: {
           banner: {
-            sizes: [[300, 250], [600, 300]]
+            sizes: [[300, 250], [600, 300], [300, 500]]
           }
         },
         bids: [
@@ -180,24 +147,7 @@
             bidder: 'bliink',
             params: {
               placement: 'banner',
-              tagId: '105'
-            }
-          }
-        ]
-      },
-      {
-        code: 'test4',
-        mediaTypes: {
-          banner: {
-            sizes: [[600, 280], [300, 600]]
-          }
-        },
-        bids: [
-          {
-            bidder: 'bliink',
-            params: {
-              placement: 'banner',
-              tagId: '811'
+              tagId: '166'
             }
           }
         ]
@@ -251,7 +201,7 @@
 
     pbjs.que.push(function () {
       pbjs.addAdUnits(adUnits);
-      pbjs.addAdUnits(videoAdUnit);
+      // pbjs.addAdUnits(videoAdUnit);
       pbjs.setConfig({
         "schain": {
           "validation": "strict",
