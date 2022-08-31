@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Seedtag</title>
+</head>
+
+<body>
+  <script>
+    document.open();
+    document.write(atob(window.name));
+    console.log('atob(window.name)', atob(window.name));
+    window.name = '';
+    document.close();
+  </script>
+</body>
+
+</html>
