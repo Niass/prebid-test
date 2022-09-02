@@ -320,7 +320,7 @@
       if (winningBid && winningBid.adId) {
         var div = document.getElementById(winningBid.adUnitCode);
         if (div) {
-          let iframe = document.createElement('div');
+          let iframe = document.createElement('iframe');
           iframe.frameBorder = '0';
           div.appendChild(iframe);
           var iframeDoc = iframe.contentWindow.document;
