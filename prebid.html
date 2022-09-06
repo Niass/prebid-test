@@ -159,7 +159,7 @@
         code: 'test11',
         mediaTypes: {
           banner: {
-            sizes: [[500, 350], [300, 600]]
+            sizes: [[250, 200],[500, 350], [300, 600]]
           }
         },
         bids: [
@@ -223,57 +223,57 @@
       //     }
       //   ]
       // },
-      // {
-      //   code: 'test4',
-      //   mediaTypes: {
-      //     banner: {
-      //       sizes: [[720, 90], [300, 600]]
-      //     }
-      //   },
-      //   bids: [
-      //     {
-      //       bidder: 'bliink',
-      //       params: {
-      //         placement: 'banner',
-      //         tagId: '811'
-      //       }
-      //     }
-      //   ]
-      // },
-      // {
-      //   code: 'test5',
-      //   mediaTypes: {
-      //     banner: {
-      //       sizes: [[800, 400], [300, 600]]
-      //     }
-      //   },
-      //   bids: [
-      //     {
-      //       bidder: 'bliink',
-      //       params: {
-      //         placement: 'banner',
-      //         tagId: sticky === 'banner' ? '812' : '813'
-      //       }
-      //     }
-      //   ]
-      // },
-      // {
-      //   code: 'test15',
-      //   mediaTypes: {
-      //     banner: {
-      //       sizes: [[800, 400], [300, 600]]
-      //     }
-      //   },
-      //   bids: [
-      //     {
-      //       bidder: 'bliink',
-      //       params: {
-      //         placement: 'banner',
-      //         tagId: '218'
-      //       }
-      //     }
-      //   ]
-      // },
+      {
+        code: 'test4',
+        mediaTypes: {
+          banner: {
+            sizes: [[250, 200],[720, 90], [300, 600]]
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              placement: 'banner',
+              tagId: '811'
+            }
+          }
+        ]
+      },
+      {
+        code: 'test5',
+        mediaTypes: {
+          banner: {
+            sizes: [[250, 200], [800, 400], [300, 600]]
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              placement: 'banner',
+              tagId: sticky === 'banner' ? '812' : '813'
+            }
+          }
+        ]
+      },
+      {
+        code: 'test15',
+        mediaTypes: {
+          banner: {
+            sizes: [[250, 200],[800, 400], [300, 600]]
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              placement: 'banner',
+              tagId: '218'
+            }
+          }
+        ]
+      },
       // {
       //   code: 'test6',
       //   mediaTypes: {
