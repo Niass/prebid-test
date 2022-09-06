@@ -81,10 +81,12 @@
     var FAILSAFE_TIMEOUT = 2500;
     var tempTag = false;
     var domId = false;
+    const urlParams = new URLSearchParams(window.location.search);
     var invokeVideoPlayer = function (url, id) {
       tempTag = url;
       domId = id;
     }
+    const sticky = urlParams.get('sticky');
     var videoAdUnit = [
       {
         code: 'video1',
@@ -164,7 +166,7 @@
             bidder: 'bliink',
             params: {
               placement: 'banner',
-              tagId: '999'
+              tagId: sticky === 'video' ? '1000' :  '999'
             }
           }
         ]
@@ -249,7 +251,7 @@
             bidder: 'bliink',
             params: {
               placement: 'banner',
-              tagId: '812'
+              tagId: sticky === 'banner' ? '812' : '813'
             }
           }
         ]
