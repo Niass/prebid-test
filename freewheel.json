@@ -1,0 +1,766 @@
+{
+  "insertId": "m7i71u0im712a8rk",
+  "jsonPayload": {
+    "resp": {
+      "mode": "rtb",
+      "currency": "EUR",
+      "ad": {
+        "media_type": "video",
+        "reheat": false,
+        "video": {
+          "Content": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<VAST version=\"2.0\">\n    <Ad id=\"438927564\">\n        <Wrapper>\n            <AdSystem>XBid</AdSystem>\n            <Error><![CDATA[https://ads.stickyadstv.com/error-tracking/?adId=2686551474&viewKey=1661936243977068-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732561&exAdId=1647921_2686509762&impId=1&cb=6560655&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&errorCode=[ERRORCODE]&fw=https%3A%2F%2Fads.stickyadstv.com%2Ferror-tracking%2F%3FadId%3D2686509762%26viewKey%3D1661936243977074-375%26sessionId%3D923e2ab5dc592de2a1a861d242a4d94%26zoneId%3D12732577%26exAdId%3D12463_18180978221_438927564_438927564%26impId%3D1%26cb%3D3533674%26loc%3Dhttps%253A%252F%252Fwww.cosmopolitan.fr%252Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%252C2058993.asp%26seatId%3D377%26_fw_gdpr%3D1%26_fw_gdpr_consent%3DCPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA%26errorCode%3D%5BERRORCODE%5D%26&]]></Error>\n            <Extensions>\n                <Extension type=\"StickyViewability\">\n                    <value>https://ads.stickyadstv.com/viewability-tracking/?adId=2686509762&amp;viewKey=1661936243977074-375&amp;sessionId=923e2ab5dc592de2a1a861d242a4d94&amp;zoneId=12732577&amp;exAdId=12463_18180978221_438927564_438927564&amp;impId=1&amp;cb=6530538&amp;loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&amp;seatId=377&amp;_fw_gdpr=1&amp;_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&amp;state=[viewabilityState]&amp;percentViewable=[percent]&amp;focus=[focus]&amp;ibpiv=35fa985533a21599800a93c7e2587243&amp;ibp=1d776fb804248c823d99963c74f689819f15d7ee981984f0124d22e1c8a5c5e5ea4439b6ebfdc74fc523941e0053f653a6387fbb90f367dc8b4f53a66f2e95ecbe8706163c08fa1f016882acb5f4db0a799178ad1d849d1391541583328cbdf9&amp;</value>\n                </Extension>\n                <Extension type=\"MOAT\">\n                    <Partner>stickyadsjsint111745259950</Partner>\n                    <PX>123</PX>\n                    <Publisher>1168705</Publisher>\n                    <Site>8259201</Site>\n                    <Zone>12732577</Zone>\n                    <Campaign>2684334562</Campaign>\n                </Extension>\n                <Extension type=\"CustomTracking\">\n                    <TrackingEvents>\n                        <Tracking event=\"impression\">&lt;script type='text/javascript' src='https://loadeu.exelator.com/load/?p=204&amp;g=108&amp;buid=f4cc2e8de2a96453e2965a18831cd'&gt;&lt;/script&gt;</Tracking>\n                    </TrackingEvents>\n                </Extension>\n                <Extension type=\"StickyBrand\">\n                    <Domain>kinder.com</Domain>\n                    <Sector>FOOD &amp; NUTRITION</Sector>\n                    <Advertiser>Ferrero S.p.a.</Advertiser>\n                    <Brand>Kinder (Chocolate)</Brand>\n                </Extension>\n                <Extension type=\"StickyPricing\">\n                    <Price currency=\"EUR\">3.0100</Price>\n                </Extension>\n                <Extension type=\"StickyViewability\">\n                    <value><![CDATA[https://ads.stickyadstv.com/viewability-tracking/?adId=2686551474&viewKey=1661936243977068-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732561&exAdId=1647921_2686509762&impId=1&cb=1236007&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&state=[viewabilityState]&percentViewable=[percent]&focus=[focus]&ibpiv=35fa985533a21599800a93c7e2587243&ibp=1d776fb804248c823d99963c74f68981959d7330617171947de6a83582f119600591ceb50fcaca6344bd5aa4c8d78c12eae3cb031ffe7ab5f96bce29d5b96984529d08ad5670f26566d22504a4dbabca0378a52430cb3401c9796ab598870c8d&]]></value>\n                </Extension>\n                <Extension type=\"CustomTracking\">\n                    <TrackingEvents>\n                        <Tracking event=\"impression\">&lt;script type='text/javascript' src='https://s.pixsrvcs.com/2/848488/analytics.js?dt=8484881567613756606000&amp;di=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&amp;ui=f4cc2e8de2a96453e2965a18831cd&amp;sr=9713&amp;pp=1168689&amp;si=8259169&amp;pc=12732561&amp;ti=1661936243977068-375&amp;pv=15196ab0-f6fe-428a-b958-45993138d292&amp;to=3&amp;de=5&amp;md=2'&gt;&lt;/script&gt;</Tracking>\n                    </TrackingEvents>\n                </Extension>\n            </Extensions>\n            <Impression id=\"2686509762\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsDisplayStarted&adId=2686509762&viewKey=1661936243977074-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732577&exAdId=12463_18180978221_438927564_438927564&impId=1&cb=7605938&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&seatId=377&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f689819f15d7ee981984f0124d22e1c8a5c5e5ea4439b6ebfdc74fc523941e0053f653a6387fbb90f367dc8b4f53a66f2e95ecbe8706163c08fa1f016882acb5f4db0a799178ad1d849d1391541583328cbdf9&campaignId=2684334562&rootViewKey=1661936243977068-375&]]></Impression>\n            <Impression id=\"3rdparty-2686509762-0\"><![CDATA[https://obo.moatads.com/pixel.gif?e=0&g=0&ac=1&bq=7&f=1&gh=0&hc=0&i=OBO_FREEWHEEL_SSP1&t=8480847&de=8480847&d=123%3A1168705%3A8259201%3A12732577&bo=2684334562&bd=-&obo=1&cs=0&zGSRC=1]]></Impression>\n            <Impression id=\"2686551474\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsDisplayStarted&adId=2686551474&viewKey=1661936243977068-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732561&exAdId=1647921_2686509762&impId=1&cb=9591825&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f68981959d7330617171947de6a83582f119600591ceb50fcaca6344bd5aa4c8d78c12eae3cb031ffe7ab5f96bce29d5b96984529d08ad5670f26566d22504a4dbabca0378a52430cb3401c9796ab598870c8d&campaignId=2684376274&]]></Impression>\n            <Impression id=\"3rdparty-2686551474-0\"><![CDATA[https://s.update.stickyadstv.com/2/848488/analytics.gif?dt=8484881527175831722000&di=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&ui=f4cc2e8de2a96453e2965a18831cd&sr=9713&pp=1168689&si=8259169&pc=12732561&ti=1661936243977068-375&pv=15196ab0-f6fe-428a-b958-45993138d292&to=3&de=5&md=2]]></Impression>\n            <Creatives>\n                <Creative sequence=\"1\" id=\"438927564\">\n                    <Linear>\n                        <TrackingEvents>\n                            <Tracking event=\"start\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsSendReport&adId=2686509762&viewKey=1661936243977074-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732577&exAdId=12463_18180978221_438927564_438927564&impId=1&cb=4884885&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&seatId=377&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&displayPercentage=0&time=0&tagsArray=&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f689819f15d7ee981984f0124d22e1c8a5c5e5ea4439b6ebfdc74fc523941e0053f653a6387fbb90f367dc8b4f53a66f2e95ecbe8706163c08fa1f016882acb5f4db0a799178ad1d849d1391541583328cbdf9&]]></Tracking>\n                            <Tracking event=\"firstQuartile\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsSendReport&adId=2686509762&viewKey=1661936243977074-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732577&exAdId=12463_18180978221_438927564_438927564&impId=1&cb=1734509&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&seatId=377&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&displayPercentage=25&time=3&tagsArray=&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f689819f15d7ee981984f0124d22e1c8a5c5e5ea4439b6ebfdc74fc523941e0053f653a6387fbb90f367dc8b4f53a66f2e95ecbe8706163c08fa1f016882acb5f4db0a799178ad1d849d1391541583328cbdf9&]]></Tracking>\n                            <Tracking event=\"midpoint\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsSendReport&adId=2686509762&viewKey=1661936243977074-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732577&exAdId=12463_18180978221_438927564_438927564&impId=1&cb=787529&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&seatId=377&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&displayPercentage=50&time=7&tagsArray=&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f689819f15d7ee981984f0124d22e1c8a5c5e5ea4439b6ebfdc74fc523941e0053f653a6387fbb90f367dc8b4f53a66f2e95ecbe8706163c08fa1f016882acb5f4db0a799178ad1d849d1391541583328cbdf9&]]></Tracking>\n                            <Tracking event=\"thirdQuartile\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsSendReport&adId=2686509762&viewKey=1661936243977074-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732577&exAdId=12463_18180978221_438927564_438927564&impId=1&cb=4008475&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&seatId=377&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&displayPercentage=75&time=11&tagsArray=&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f689819f15d7ee981984f0124d22e1c8a5c5e5ea4439b6ebfdc74fc523941e0053f653a6387fbb90f367dc8b4f53a66f2e95ecbe8706163c08fa1f016882acb5f4db0a799178ad1d849d1391541583328cbdf9&]]></Tracking>\n                            <Tracking event=\"complete\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsDisplayEnd&adId=2686509762&viewKey=1661936243977074-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732577&exAdId=12463_18180978221_438927564_438927564&impId=1&cb=4876430&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&seatId=377&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&displayPercentage=100&time=15&tagsArray=&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f689819f15d7ee981984f0124d22e1c8a5c5e5ea4439b6ebfdc74fc523941e0053f653a6387fbb90f367dc8b4f53a66f2e95ecbe8706163c08fa1f016882acb5f4db0a799178ad1d849d1391541583328cbdf9&]]></Tracking>\n                            <Tracking event=\"start\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsSendReport&adId=2686551474&viewKey=1661936243977068-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732561&exAdId=1647921_2686509762&impId=1&cb=5228646&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&displayPercentage=0&time=0&tagsArray=&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f68981959d7330617171947de6a83582f119600591ceb50fcaca6344bd5aa4c8d78c12eae3cb031ffe7ab5f96bce29d5b96984529d08ad5670f26566d22504a4dbabca0378a52430cb3401c9796ab598870c8d&]]></Tracking>\n                            <Tracking event=\"firstQuartile\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsSendReport&adId=2686551474&viewKey=1661936243977068-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732561&exAdId=1647921_2686509762&impId=1&cb=9984833&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&displayPercentage=25&time=3&tagsArray=&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f68981959d7330617171947de6a83582f119600591ceb50fcaca6344bd5aa4c8d78c12eae3cb031ffe7ab5f96bce29d5b96984529d08ad5670f26566d22504a4dbabca0378a52430cb3401c9796ab598870c8d&]]></Tracking>\n                            <Tracking event=\"midpoint\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsSendReport&adId=2686551474&viewKey=1661936243977068-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732561&exAdId=1647921_2686509762&impId=1&cb=6469251&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&displayPercentage=50&time=7&tagsArray=&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f68981959d7330617171947de6a83582f119600591ceb50fcaca6344bd5aa4c8d78c12eae3cb031ffe7ab5f96bce29d5b96984529d08ad5670f26566d22504a4dbabca0378a52430cb3401c9796ab598870c8d&]]></Tracking>\n                            <Tracking event=\"thirdQuartile\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsSendReport&adId=2686551474&viewKey=1661936243977068-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732561&exAdId=1647921_2686509762&impId=1&cb=6045682&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&displayPercentage=75&time=11&tagsArray=&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f68981959d7330617171947de6a83582f119600591ceb50fcaca6344bd5aa4c8d78c12eae3cb031ffe7ab5f96bce29d5b96984529d08ad5670f26566d22504a4dbabca0378a52430cb3401c9796ab598870c8d&]]></Tracking>\n                            <Tracking event=\"complete\"><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsDisplayEnd&adId=2686551474&viewKey=1661936243977068-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732561&exAdId=1647921_2686509762&impId=1&cb=8526785&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&ibpiv=35fa985533a21599800a93c7e2587243&displayPercentage=100&time=15&tagsArray=&foreignListenerId=f4cc2e8de2a96453e2965a18831cd&ibp=1d776fb804248c823d99963c74f68981959d7330617171947de6a83582f119600591ceb50fcaca6344bd5aa4c8d78c12eae3cb031ffe7ab5f96bce29d5b96984529d08ad5670f26566d22504a4dbabca0378a52430cb3401c9796ab598870c8d&]]></Tracking>\n                        </TrackingEvents>\n                        <VideoClicks>\n                            <ClickTracking><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsClickThrough&adId=2686509762&viewKey=1661936243977074-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732577&exAdId=12463_18180978221_438927564_438927564&impId=1&cb=7011967&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&seatId=377&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&]]></ClickTracking>\n                            <ClickTracking><![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsClickThrough&adId=2686551474&viewKey=1661936243977068-375&sessionId=923e2ab5dc592de2a1a861d242a4d94&zoneId=12732561&exAdId=1647921_2686509762&impId=1&cb=5790166&loc=https%3A%2F%2Fwww.cosmopolitan.fr%2Fkate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee%2C2058993.asp&_fw_gdpr=1&_fw_gdpr_consent=CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA&]]></ClickTracking>\n                        </VideoClicks>\n                    </Linear>\n                </Creative>\n            </Creatives>\n            <VASTAdTagURI><![CDATA[https://bid.g.doubleclick.net/dbm/vast?dbm_c=AKAmf-A2nRH1j-SUf8ol4ZTFlAhSL23cgwXQIWs_BYGU5qMG2D55gZWAw66sFOq0wgagboJabaO1JHihFf7W2tbOjPS1JhnhaA&dbm_d=AKAmf-DMVwRkUvw3HQ-BW5tLR15wdo94609VikT6gVZU5S8XHndHcYhsNCcIdrlxOiFcZKGzGxpmufvRCDZ4owaDjz6Plb4tvs40W_RrJaj46L9K_OQL5B4g2qZN6k9zBy-0QaPNytmRuVQuiLXRzy0M-QjYxVo5i5rH_LOXqtBcS0fQ9S1kpo3bjSZ2VCqlhy1lcsVq8rqDYM_hfrUE8sZXo1KAVJlT-HyKeMlI-7-BCpnvIdtuAZar2E6dpEPZ6ht4RHXDFeJ_SoPel36KHTo3RI36XELYazvTon2DyD3u0Bg1sE4F1iXQz9D9ZHckzepmkzpbHFQsxU_16mghiuQG3K2Nx_QbfKcrV0Ot4IeMve00WTse8BjppGprfsFbzhcE8V4KbKVZCGTPxsBSk1FnuoXamu6DlNoYJAyHWpDf8_tgNa_vJ3cp3nxUMiNqAfpEBrsNtWWNHq0KxeHpIrxz9iArZv7YzKVbOh3PnwII5luU-7-PWgOsoGk0EkIiPyCt8adxa1md9UyAahU8QLuw9qmKPQUClz3S5cOYs5b8OGpX-Addn3z81mmsfkATeh71myg56C6QxOgeDL-MrpvrifY1sQdQodeeRJzN0iL1YR0ICXM6Z_pizkvLeX1N4dYoGeKWlvNmSxPVdi4neqFN2jXd2_DmvC7_1lezoIuIj_Y83Hyihb-6-aH6QDeYN82yXIHzNC8AJozJuqPzYy6Pi0dHeRmOHYngSVKzMB-a7eoGS_rdgexteAYP2qXJ5CR5nqi7Eu_EmpYY0LytEZ0PRNjtNQFxIDUi7aR683Mva7UTbnNAq3t5Dt0a5F6SULy2BFK73iTm7Ct1gnEhbHur3CIppth5cMOMKx8t5R-pIzeKtquvrsioGgl1M6fYjdg7A6xAbm-NnhjRFHdHiRMee9omRSztNVE2PtJEgLQJHFD8jbV-p6RF3kOkgcWFHuEFXJoh3xfYTaHGI5Lw6qP6E1LdPFrxmU8jcCt6gRAg7ac567wG_NT_q_9pia7WuPoO4AQwXeeHhkeZHIM_JLlZv_1KCWG2bBj9jmoJQy4TW7VjlsYcNBDfnwwsX5dRMeSkOT_YZ2s8ikjoy8aMmZiwIzVtZY__p_RRSlGN46M2zZkCx959GuT1yju9mTluURvXgUxJtytVz_N4tnYEVh2F2BYg9O1SuVWh0mzcSK_9pgBafGV-HpRIFYq59PJipV306AeCJF4ktI8O5t3CAVer6C36uJzGJ-QkOvO4lXJvC-ghGlBPDvt8czX_1GrI-tyzIOMTg4gqMn3orf4fMqBXCbO0mzD7hEs4hKowhMAcXriYgIg_OwcvP6v1WdeK8pLKw29II9FHFUjZZUMKX6iabCAa3U9flCJkaFxZmaAFHuVswmauD6n7tiaYgwEdoipxcQW5K8ndd0EXCImq9AP3LFjqneH_GWN4zKbRyaMmgsd8l-NmKHQos7bFzcUKMyavoeSL4T55l_8Ky7POEk19BYKKUBzuPdeTzntnoongEvjgHZI6uMFgyi2MtVdHxUmN98e6bBCir08Z-eMiYSpTm-cSaaNjY8Itu4o--rlcnhiysTjuO0lyHSN_2UsAMt0TMa7oz9lwjnCXifg9EtfTw2u4QnwbPKV2Q73vFpYQxoS_-Q3Dst4gv8VUI_q5WhWVh4VV0UdGONlaFuxCKoSb3Xmda5aG4Cjm7Xd_f-tFiWbs9mDuLUV57nWypq7swE324pK0lgHh5G6uI8nwizFuazdYSvDzVrEclKaULuspaJhhR7d-unnQZ1sp7bxUBbZxdFCweUzK070i7ruekv2m_-3e_yQx73X1teVivz9vH3PmBeOghRs5lnK_WKaQ_Scgx_Hm6q9lSuqTrtK8-LQhJde7o3sm-B1nzQ8hfRssK1-kiojJodcDvjEkQgUg0yyoh8MDVNL0YPxVyCQpzZYfwC5rEWSFszYqE9hYbySabvzABYFQ1sAFK_j3yWvo2xANhfHawwvVZk9razZuvrnwPluGSmihsGyfgbWJLJRJL3NPZrMFAU5iInQUJzxeSAFU5g8gFdGo_Y3oprXmhetHa6BlpePtZLGUMqOFKNyKo5vbq_tworPaDseqUsUeIo7rXp4CJN3B0A3RGPL-EoNySqVDqBT9flWflB8_qVblwxjMDLJflClmX--vYYtkTm6xQCEWiPSIjt_HU15jc3P3ME7lEJWD6GUjsY9Op7zZz2X3vb2DqXpL6-VOPDl2IqE7_uaadHuiJxjDNRYApJP0vUcQ14y4zJ3YLalv2ewaKofz52ylxz51OgRiUoCTNC7sB9w2dlvovGtUeVgX_qM2BraMi7Qs9K0NJ10q3WN43CiAWlzaxHjDehy3HsalENX_4mUS9bAVWODvostWuOCW1ajUFlDjc90u3uD87qIhZqU8bV0ihMM9Qgmv2mbJrce9lALNirNn2E5uuvRbh6UT1TcnHH-TF6KimdRitTB4bw8RwEib-APpBLAm-t3o8TZZ0oQmpd8h5z9nXBbM3BwOHgiuPzk9LQui8Rt3wr6uZuLRGKj9xJWHCnslq9f23xVp2vRvKVbZLEYKz1u5KJz9HqtF2BLF0Yh5WATQsTTP8foHexVpPpi5n_YiJxncmYA0egmAW6dI3d_eg700eWlKq0ACj6WaProqIHzjM1q4mkcCaomDxkrSbbrbuNi6V-yvJaa3QoCjYpiL_fLnhd97SbVsTEh5OdKmT2tJqNNJi9vFwGWx_YIFh29GrZX0QaXFch_N5UHEwgXuQhEdHiiWPmXhmSQ3r5dm6pU0pi73pgNx3uFt6iw2-SXKcw0viDgPosOwkKfIQd2tBirO3DqW_b9mRRc3yERltsHHTyyDEi-4eHPbBLpSDrVjyhpdsZr-DCf0rAnp2_79Q2pPohpb-sp9qt3XqamtVnC9MT-t37StoCu90GcGH_gdiSdY-PEJFem_CangQKc2-2Udx6Pl6biqfZL0gZyiCU_44kODgM7FE8YlPHGh0j1dFo_4utXoMs6vkn3h_p4rxOk3X3XTjfO8kd_AjixEjI023KAGFIKbc6dObB6jNZDhjs8hk28NgTIM439a8tia0y8JDk4ejEq8cquVdUfNd0bmCvrifrbozcDqmBpQsMPnq6bHBn2uLfD4YCbX1rogsqf_7tHlaLrfkIscjN8OmK8Hoi4cskBrzKeolrJMEsIKXmbx3ysfwUhQPlC32k5o3Aj6Y3N2fWv2OR2kAzKS17oQRmaFgSTFhDrWJ2EUAz185Dr7BSIeCp1JXStiKl9dB315mzvpPoPVu4nM4YLGa0W_bm3v_vYVNOcoiGEgYEABjjGbhQZbNU3eQkH3c4KPxwu2vP0hkPTvqJiu13ltb_onF65u6YyetNA4JZCorY68MlK_CvTmigMpAfAngwCvS81-uvDuuKt_mJdYgGDjxCL492qIFaWi9HR2RhCaOKegulYh9VUkhCukkS6FVFPxkV_GuLjZ4x3vpPGl9d5mP5-LIX2CCZAF7ZQR0NcJmU4MsaluPhtPgFYFa4gkgr8LQ5AW-MkM_YSRxX6hsAwhKtl4jaLejhjggFzkc7uqnIwGVEvZHB00i4pWy5HEvuogKc8suddxhDt3ypn4s0EezZHMDuvSQm_TVEYvdbRVik_LlRPgs2qrXiZPt-4wp3XtszkBBU9PsvO-UnDv0qD1P9UTqOeGcFaJqoTxOI3-evVSfp2FxjijPD91RY3AVNtZOaSJfpIGla4cekQUuQC0HECRhBmTm3iEFefpAoNzMdVvccBcR90lnsL0J0pKVVShhbsVlOA3AfCUiIdjsqvVtrpNx2q2KBukJOBdaD8UfuTa1wWba8PHjuscsXnVW1O1cePZe3-6Mj2SjRtWHvjxt4GsYCfuQn4QI8JBKxaPsen1pS4Pkk_FpjxaTg7CO0Zwb1UX8qLO91GJS-7sDPj8A6QRn2Zcd9Mfh0MXIjiKbd9UOa37IcjCllaeE3WexwgJ11RzWRk_FcUERnl-DjUVNDyzkfoKgtFE9JztnqKEApnQk4RRLN6nPVnQPTts&cid=CAASEuRoFW2WEaJkWnGO-CNPGpNO3w&pr=42:3.0100000000&gdpr_consent=redundant]]></VASTAdTagURI>\n        </Wrapper>\n    </Ad>\n</VAST>\n"
+        }
+      },
+      "price_net": 1.06,
+      "ssp": "freewheel-ssp",
+      "price": 3.01
+    },
+    "ctx": {
+      "transaction_id": "11042f93-a33e-4f93-a576-95f180465ea6",
+      "cookie_id": "ff329e10-5c85-4bef-8417-78693fe07463",
+      "vast_version": 2,
+      "user_agent": "Mozilla/5.0 (Linux; Android 11; 21051182G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+      "rules": {
+        "context_rules": [
+          {
+            "type": 1,
+            "blocked": [
+              {
+                "exchange_rules": [
+                  {
+                    "media_types": [
+                      1,
+                      2,
+                      3
+                    ],
+                    "id": 12
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "targetings": {
+        "device": {
+          "os": "Android",
+          "platform": "Website",
+          "browser": "Chrome"
+        },
+        "location": {
+          "longitude": -0.5463,
+          "country": "FR",
+          "zip_code": "49100",
+          "region": "PDL",
+          "department": "49",
+          "latitude": 47.4704,
+          "city": "Angers"
+        },
+        "time": "2022-08-31T08:57:24Z",
+        "page": {
+          "domain": "cosmopolitan.fr",
+          "title": "Kate Middleton : sa deuxième robe de mariée rarement vue enfin révélée - Cosmopolitan.fr",
+          "description": "Kate Middleton et le prince William avaient fait rêver le monde entier avec leur mariage en 2011. Mais, après toutes ces années, cette union continue de faire parler. Récemment, la deuxième robe de mariée de la duchesse de Cambridge, très peu vue à l'époque, a refait surface.",
+          "image_url": "https://cache.cosmopolitan.fr/data/photo/w1000_ci/6c/katemiddleton-deuxieme-robe-de-mariee.jpg",
+          "ad_unit_position": 1,
+          "url": "https://www.cosmopolitan.fr/kate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee,2058993.asp",
+          "referer": "https://www.cosmopolitan.fr/kate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee,2058993.asp"
+        },
+        "classified_content": {
+          "created_at": {
+            "nanos": 730000000,
+            "seconds": 1661853618
+          },
+          "updated_at": {
+            "nanos": 730000000,
+            "seconds": 1661853618
+          },
+          "classification": {
+            "iab_categories": [
+              {
+                "name": "Style and fashion",
+                "id": "552",
+                "iabId": "IAB18",
+                "confidence": 0.3627865
+              },
+              {
+                "name": "Uncategorized",
+                "confidence": 0.23871985
+              },
+              {
+                "confidence": 0.14402404,
+                "name": "Healthy Living",
+                "iabId": "IAB7",
+                "id": "223"
+              }
+            ],
+            "brand_safety": {
+              "safe": true,
+              "confidence": 1
+            },
+            "page": {
+              "descriptions": {},
+              "lang": "fr",
+              "title": "Royautés : tous sur les familles royales - Cosmopolitan.fr"
+            }
+          },
+          "url": "https://www.cosmopolitan.fr/kate-middleton-sa-deuxieme-robe-de-mariee-rarement-vue-enfin-revelee,2058993.asp",
+          "organization_id": 1,
+          "id": "630ddfb27d4e7699ccbf0e9f"
+        },
+        "ip": "91.161.180.43"
+      },
+      "tag": {
+        "id": 452,
+        "ad_sizes": [
+          {
+            "width": 1,
+            "id": 1,
+            "label": "responsive",
+            "height": 1
+          },
+          {
+            "width": 320,
+            "label": "320*50",
+            "id": 2,
+            "height": 50
+          },
+          {
+            "label": "728*90",
+            "id": 3,
+            "width": 728,
+            "height": 90
+          },
+          {
+            "id": 4,
+            "width": 320,
+            "height": 100,
+            "label": "320*100"
+          },
+          {
+            "width": 970,
+            "height": 250,
+            "id": 5,
+            "label": "970*250"
+          },
+          {
+            "width": 300,
+            "label": "300*50",
+            "height": 50,
+            "id": 6
+          },
+          {
+            "id": 7,
+            "width": 970,
+            "height": 90,
+            "label": "970*90"
+          },
+          {
+            "height": 480,
+            "label": "640*480",
+            "width": 640,
+            "id": 8
+          },
+          {
+            "height": 30,
+            "label": "1000*30",
+            "width": 1000,
+            "id": 9
+          },
+          {
+            "width": 1000,
+            "label": "1000*90",
+            "height": 90,
+            "id": 10
+          },
+          {
+            "label": "1000*250",
+            "height": 250,
+            "width": 1000,
+            "id": 11
+          },
+          {
+            "height": 480,
+            "width": 320,
+            "label": "320*480",
+            "id": 12
+          },
+          {
+            "label": "300*600",
+            "id": 13,
+            "height": 600,
+            "width": 300
+          },
+          {
+            "id": 14,
+            "label": "320*960",
+            "width": 320,
+            "height": 960
+          },
+          {
+            "height": 900,
+            "label": "450*900",
+            "width": 450,
+            "id": 15
+          },
+          {
+            "height": 600,
+            "label": "160*600",
+            "width": 160,
+            "id": 16
+          },
+          {
+            "id": 17,
+            "label": "120*600",
+            "height": 600,
+            "width": 120
+          },
+          {
+            "height": 1050,
+            "id": 18,
+            "label": "300*1050",
+            "width": 300
+          },
+          {
+            "width": 300,
+            "id": 19,
+            "label": "300*250",
+            "height": 250
+          },
+          {
+            "id": 20,
+            "label": "1x1",
+            "height": 1,
+            "width": 1
+          },
+          {
+            "label": "0x0",
+            "id": 21
+          }
+        ],
+        "site_id": 231,
+        "network_id": 27,
+        "display_type": "article",
+        "name": "COSMOPOLITAN_GMC_ARTICLE",
+        "status": 10,
+        "iab_category": {
+          "iab_id": "IAB1",
+          "id": 1,
+          "name": "Arts & Entertainment"
+        },
+        "network": {
+          "uuid": "78161a8c-5d2d-11e9-979f-0242ac120007",
+          "address": {
+            "country": "FRANCE",
+            "id": 1,
+            "city": " ISSY LES MOULINEAUX",
+            "street": "GROUPE MARIE CLAIRE, 10 BD DES FRERES VOISIN ",
+            "postcode": "92130"
+          },
+          "revenue_margin": 40,
+          "domain": "groupemarieclaire.com",
+          "account_id": 1,
+          "id": 27,
+          "status": 10,
+          "name": "GROUPE MARIE CLAIRE",
+          "ad_server_margin": 40,
+          "rtb_margin": 60
+        },
+        "site_smart_id": 354248,
+        "site": {
+          "uuid": "590bd302-9ac1-11ea-ab95-4ab646abaad1",
+          "name": "COSMOPOLITAN_GMC",
+          "device_type": "Website",
+          "status": 10,
+          "external_ids": [
+            {
+              "ext_id": "354248",
+              "id": 152887,
+              "exchange": {
+                "margin": 20,
+                "type": "ssp",
+                "connection_type": "S2S",
+                "currency_id": 1,
+                "compression_type": "gzip",
+                "id": 4,
+                "url": "https://ssb-eu.smartadserver.com/api/bid?callerId=39",
+                "mandatory_external_id": 1,
+                "name": "Smart Ad Server",
+                "buying_mode": 1,
+                "uuid": "52513a46-5324-11ea-b497-1e5f1eb2c4d3",
+                "label": "smart",
+                "rtb_version": 2.5
+              },
+              "exchange_id": 4
+            },
+            {
+              "exchange": {
+                "rtb_version": 2.5,
+                "label": "azerion",
+                "type": "dsp",
+                "buying_mode": 1,
+                "uuid": "9c3bd70e-549d-11ea-9dce-82d827c83567",
+                "currency_id": 2,
+                "margin": 12,
+                "id": 6,
+                "name": "Azerion",
+                "url": "https://ice.360yield.com/1633/hbs",
+                "connection_type": "RTB",
+                "compression_type": "gzip"
+              },
+              "ext_id": "420657",
+              "exchange_id": 6,
+              "id": 152888
+            }
+          ],
+          "url": "https://www.cosmopolitan.fr/",
+          "id": 231,
+          "network_id": 27
+        },
+        "format": 1,
+        "external_ids": [
+          {
+            "ext_id": "23831630",
+            "exchange_id": 3,
+            "id": 193125,
+            "exchange": {
+              "connection_type": "RTB",
+              "name": "AppNexus",
+              "margin": 12,
+              "compression_type": "none",
+              "rtb_version": 2.4,
+              "type": "dsp",
+              "id": 3,
+              "label": "appnexus",
+              "uuid": "52513334-5324-11ea-9b61-1e5f1eb2c4d3",
+              "currency_id": 2,
+              "buying_mode": 1,
+              "url": "https://bliink-emea.adnxs.com/openrtb2?member_id=10212",
+              "media_types": [
+                {
+                  "id": 1,
+                  "label": "Banner"
+                },
+                {
+                  "label": "Video",
+                  "id": 2
+                },
+                {
+                  "id": 3,
+                  "label": "Native"
+                }
+              ]
+            }
+          },
+          {
+            "exchange_id": 4,
+            "id": 193126,
+            "exchange": {
+              "uuid": "52513a46-5324-11ea-b497-1e5f1eb2c4d3",
+              "buying_mode": 1,
+              "type": "ssp",
+              "currency_id": 1,
+              "name": "Smart Ad Server",
+              "label": "smart",
+              "url": "https://ssb-eu.smartadserver.com/api/bid?callerId=39",
+              "connection_type": "S2S",
+              "margin": 20,
+              "media_types": [
+                {
+                  "label": "Banner",
+                  "id": 1
+                },
+                {
+                  "label": "Video",
+                  "id": 2
+                },
+                {
+                  "label": "Native",
+                  "id": 3
+                }
+              ],
+              "id": 4,
+              "rtb_version": 2.5,
+              "mandatory_external_id": 1,
+              "compression_type": "gzip"
+            },
+            "ext_id": "1239526"
+          },
+          {
+            "exchange": {
+              "uuid": "cf9e8018-536e-11ea-8d77-2e728ce88125",
+              "rtb_version": 2.5,
+              "url": "https://ads.stickyadstv.com/www/delivery/swfIndex.php",
+              "media_types": [
+                {
+                  "id": 2,
+                  "label": "Video"
+                }
+              ],
+              "name": "Freewheel",
+              "compression_type": "none",
+              "mandatory_external_id": 1,
+              "id": 5,
+              "label": "freewheel-ssp",
+              "type": "ssp",
+              "margin": 12,
+              "currency_id": 2,
+              "buying_mode": 1,
+              "connection_type": "S2S"
+            },
+            "ext_id": "12732561",
+            "id": 193127,
+            "exchange_id": 5
+          },
+          {
+            "ext_id": "bliink.io_hb_display",
+            "media_type_id": 1,
+            "exchange_id": 13,
+            "media_type": {
+              "label": "Banner",
+              "id": 1
+            },
+            "id": 193128,
+            "exchange": {
+              "label": "smilewanted",
+              "name": "SmileWanted",
+              "buying_mode": 1,
+              "id": 13,
+              "type": "ssp",
+              "compression_type": "none",
+              "currency_id": 1,
+              "rtb_version": 2.5,
+              "media_types": [
+                {
+                  "label": "Banner",
+                  "id": 1
+                }
+              ],
+              "mandatory_external_id": 1,
+              "uuid": "38cbd996-6fa6-11ec-aede-de07e023069f",
+              "connection_type": "PREBID"
+            }
+          },
+          {
+            "media_type_id": 1,
+            "exchange": {
+              "buying_mode": 1,
+              "uuid": "63952170-1c6b-11ec-a363-a23f59a4c5a0",
+              "label": "richaudience",
+              "url": "http://eu-ortb.richaudience.com/ortb/",
+              "margin": 20,
+              "connection_type": "PREBID",
+              "rtb_version": 2.5,
+              "media_types": [
+                {
+                  "label": "Banner",
+                  "id": 1
+                },
+                {
+                  "id": 2,
+                  "label": "Video"
+                },
+                {
+                  "label": "Native",
+                  "id": 3
+                }
+              ],
+              "compression_type": "none",
+              "id": 10,
+              "type": "dsp",
+              "mandatory_external_id": 1,
+              "currency_id": 2,
+              "name": "RichAudience"
+            },
+            "media_type": {
+              "label": "Banner",
+              "id": 1
+            },
+            "ext_id": "U0lNEDtrJD",
+            "id": 193129,
+            "exchange_id": 10
+          },
+          {
+            "media_type": {
+              "id": 2,
+              "label": "Video"
+            },
+            "media_type_id": 2,
+            "exchange": {
+              "type": "dsp",
+              "name": "RichAudience",
+              "margin": 20,
+              "uuid": "63952170-1c6b-11ec-a363-a23f59a4c5a0",
+              "compression_type": "none",
+              "buying_mode": 1,
+              "url": "http://eu-ortb.richaudience.com/ortb/",
+              "id": 10,
+              "label": "richaudience",
+              "connection_type": "PREBID",
+              "media_types": [
+                {
+                  "id": 1,
+                  "label": "Banner"
+                },
+                {
+                  "id": 2,
+                  "label": "Video"
+                },
+                {
+                  "label": "Native",
+                  "id": 3
+                }
+              ],
+              "mandatory_external_id": 1,
+              "currency_id": 2,
+              "rtb_version": 2.5
+            },
+            "ext_id": "GQhYeWwV7c",
+            "id": 193130,
+            "exchange_id": 10
+          },
+          {
+            "ext_id": "22789433",
+            "exchange": {
+              "buying_mode": 1,
+              "connection_type": "RTB",
+              "label": "azerion",
+              "id": 6,
+              "compression_type": "gzip",
+              "rtb_version": 2.5,
+              "margin": 12,
+              "url": "https://ice.360yield.com/1633/hbs",
+              "type": "dsp",
+              "media_types": [
+                {
+                  "id": 1,
+                  "label": "Banner"
+                },
+                {
+                  "label": "Video",
+                  "id": 2
+                },
+                {
+                  "label": "Native",
+                  "id": 3
+                }
+              ],
+              "currency_id": 2,
+              "name": "Azerion",
+              "uuid": "9c3bd70e-549d-11ea-9dce-82d827c83567"
+            },
+            "id": 193131,
+            "media_type": {
+              "label": "Video",
+              "id": 2
+            },
+            "media_type_id": 2,
+            "exchange_id": 6
+          },
+          {
+            "exchange": {
+              "connection_type": "RTB",
+              "media_types": [
+                {
+                  "id": 1,
+                  "label": "Banner"
+                },
+                {
+                  "label": "Video",
+                  "id": 2
+                },
+                {
+                  "id": 3,
+                  "label": "Native"
+                }
+              ],
+              "uuid": "9c3bd70e-549d-11ea-9dce-82d827c83567",
+              "name": "Azerion",
+              "compression_type": "gzip",
+              "label": "azerion",
+              "url": "https://ice.360yield.com/1633/hbs",
+              "rtb_version": 2.5,
+              "currency_id": 2,
+              "id": 6,
+              "margin": 12,
+              "buying_mode": 1,
+              "type": "dsp"
+            },
+            "exchange_id": 6,
+            "media_type": {
+              "id": 1,
+              "label": "Banner"
+            },
+            "ext_id": "22789434",
+            "id": 193132,
+            "media_type_id": 1
+          },
+          {
+            "id": 193133,
+            "media_type_id": 3,
+            "ext_id": "22789435",
+            "exchange_id": 6,
+            "media_type": {
+              "label": "Native",
+              "id": 3
+            },
+            "exchange": {
+              "margin": 12,
+              "name": "Azerion",
+              "buying_mode": 1,
+              "compression_type": "gzip",
+              "url": "https://ice.360yield.com/1633/hbs",
+              "connection_type": "RTB",
+              "currency_id": 2,
+              "media_types": [
+                {
+                  "label": "Banner",
+                  "id": 1
+                },
+                {
+                  "label": "Video",
+                  "id": 2
+                },
+                {
+                  "label": "Native",
+                  "id": 3
+                }
+              ],
+              "type": "dsp",
+              "rtb_version": 2.5,
+              "label": "azerion",
+              "id": 6,
+              "uuid": "9c3bd70e-549d-11ea-9dce-82d827c83567"
+            }
+          },
+          {
+            "id": 193134,
+            "exchange_id": 14,
+            "media_type": {
+              "id": 1,
+              "label": "Banner"
+            },
+            "ext_id": "COSMOPOLITAN",
+            "media_type_id": 1,
+            "exchange": {
+              "id": 14,
+              "currency_id": 2,
+              "margin": 20,
+              "rtb_version": 2.5,
+              "connection_type": "PREBID",
+              "type": "ssp",
+              "mandatory_external_id": 1,
+              "uuid": "d6f717d2-7543-11ec-b865-4642d1ac537a",
+              "media_types": [
+                {
+                  "label": "Banner",
+                  "id": 1
+                }
+              ],
+              "label": "adagio",
+              "buying_mode": 1,
+              "compression_type": "none",
+              "name": "Adagio"
+            }
+          }
+        ],
+        "media_types": [
+          {
+            "id": 1,
+            "label": "Banner"
+          },
+          {
+            "label": "Video",
+            "id": 2
+          },
+          {
+            "label": "Native",
+            "id": 3
+          }
+        ],
+        "uuid": "923f534c-9ac1-11ea-9339-4ab646abaad1"
+      },
+      "cookies_sync": {
+        "partners": [
+          {
+            "label": "smart",
+            "id": "493572814368709837",
+            "exchange_id": 4
+          },
+          {
+            "id": "e113d466-2faf-4998-96ec-a0c299cc7554",
+            "label": "azerion",
+            "exchange_id": 6
+          },
+          {
+            "label": "appnexus",
+            "id": "4459477161507664948",
+            "exchange_id": 3
+          },
+          {
+            "label": "verizonmedia",
+            "exchange_id": 9,
+            "id": "y-uUEThxhE2uFQsBWOs0niGc9Z0eGCnQIxRzt48YY-~A"
+          },
+          {
+            "label": "verizon",
+            "id": "y-yCj_VqpE2uLaB09WG7OKPaJm1RupUyYe~A~UP64a18602-4d12-11ec-843a-02e388940e2c",
+            "exchange_id": 8
+          },
+          {
+            "exchange_id": 11,
+            "id": "_m7GsDsIQnCCA_W28sGUVJ-jxp3nf2F84cOsdtKOf7o",
+            "label": "onetag"
+          },
+          {
+            "id": "f4cc2e8de2a96453e2965a18831cd",
+            "exchange_id": 5,
+            "label": "freewheel-ssp"
+          },
+          {
+            "id": "40f7d296-0251-4308-82ed-0zz1642763480",
+            "label": "richaudience",
+            "exchange_id": 10
+          },
+          {
+            "label": "pubmatic",
+            "exchange_id": 16,
+            "id": "1FA6A163-FC5B-4675-8CEF-7E17D5064AB1"
+          }
+        ],
+        "id": "ff329e10-5c85-4bef-8417-78693fe07463"
+      },
+      "gdpr": {
+        "consent_string": "CPdpR8APdpR8AAHABBENCbCsAP_AAH_AAAAAI8Nf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36pq4KuR4Eu3LBIQdlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n1_zuZKY7_____7z_v-v______f_7-3f3__p_3_-__e_V_99zfn9_____9vP___9v-_9__________3_7BHYAkw1biALsSxwJtowihRAjCsJDqBQAUUAwtEFhA6uCnZXAT6whYAIBQBGBECHEFGDAIABAIAkIiAkCPBAIgCIBAACABUAhAARsAgsALAwCAAUA0LFCKAIQJCDIgIjlMCAiRIKCeysQSg70NMIQ6ywAoNH_FQgIlACFYGQkLByHBEgJeLJAsxRvkAIwQoBRKgAAAAA.f_gAD_gAAAAA",
+        "has_consent": true
+      }
+    },
+    "msg": "freewheel ad"
+  },
+  "resource": {
+    "type": "k8s_container",
+    "labels": {
+      "container_name": "http-server",
+      "pod_name": "exchange-api-85f846cb45-7tzxn",
+      "location": "europe-west1",
+      "cluster_name": "bliink-cluster-istio",
+      "project_id": "bliink-190908",
+      "namespace_name": "default"
+    }
+  },
+  "timestamp": "2022-08-31T08:57:24Z",
+  "severity": "INFO",
+  "labels": {
+    "k8s-pod/app_kubernetes_io/instance": "exchange-api",
+    "k8s-pod/app_kubernetes_io/name": "exchange",
+    "k8s-pod/pod-template-hash": "85f846cb45",
+    "k8s-pod/service_istio_io/canonical-revision": "latest",
+    "k8s-pod/service_istio_io/canonical-name": "exchange",
+    "k8s-pod/istio_io/rev": "istio-1611",
+    "k8s-pod/track": "stable",
+    "k8s-pod/security_istio_io/tlsMode": "istio",
+    "compute.googleapis.com/resource_name": "gke-bliink-cluster-istio-pool-4-c0571a06-24dd"
+  },
+  "logName": "projects/bliink-190908/logs/stderr",
+  "receiveTimestamp": "2022-08-31T08:57:25.100792535Z"
+}
