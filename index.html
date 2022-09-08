@@ -112,7 +112,7 @@
     const urlParams = new URLSearchParams(window.location.search);
 const bannerId = urlParams.get('bannerId');
 const size = urlParams.get('size');
-    const sizes = [[900, 300], [400, 200], [250, 600]]
+    const sizes = [[600, 350]]
     if(size) {
       let [w, h] = size.split('x')
       sizes.push([+w, +h])
