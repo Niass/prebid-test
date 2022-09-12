@@ -167,7 +167,24 @@
             bidder: 'bliink',
             params: {
               placement: 'banner',
-              tagId: sticky === 'video' ? '1000' :  '999'
+              tagId: sticky !== 'video' ? '1000' :  '999'
+            }
+          }
+        ]
+      },
+      {
+        code: 'test113',
+        mediaTypes: {
+          banner: {
+            sizes: [[250, 200],[500, 350], [300, 600]]
+          }
+        },
+        bids: [
+          {
+            bidder: 'bliink',
+            params: {
+              placement: 'banner',
+              tagId: '550'
             }
           }
         ]
@@ -485,6 +502,7 @@
   <div id='test1'></div>
   <div class="article">Article</div>
   <div id='test11'></div>
+  <div id='test113'></div>
   <div class="article">Article</div>
   <div id='test111'></div>
   <div class="article">Article</div>
