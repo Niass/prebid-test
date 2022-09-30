@@ -9,6 +9,152 @@
     .app_gdpr--2k2uB {
       display: none !important;
     }
+
+    .max-width {
+      width: 90%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .clearfix::after,
+    .clearfix::before {
+      content: "";
+      display: table;
+    }
+
+    .clearfix::after {
+      clear: both;
+    }
+
+    #copy a {
+      color: white;
+      text-decoration: none;
+      border-bottom: 3px dotted white;
+    }
+
+    #copy a:hover {
+      border-bottom: 3px dotted #4972b2;
+    }
+
+    .box-sizing {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    body {
+      line-height: 1.3em;
+      font-size: 1.3em;
+    }
+
+    header {
+      background: #3c5e94;
+    }
+
+    header nav {
+      width: 90%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    header nav::after,
+    header nav::before {
+      content: "";
+      display: table;
+    }
+
+    header nav::after {
+      clear: both;
+    }
+
+    header nav li a {
+      float: left;
+      width: 25%;
+      text-align: center;
+      padding: 1em;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+      color: white;
+      text-decoration: none;
+    }
+    header nav li  {
+      list-style-type: none;
+    }
+
+    header nav li a:hover {
+      background: #4c76b7;
+    }
+
+    main {
+      margin: 0px auto 200px;
+      padding: 10px 25px;
+      z-index: 0;
+      background: white;
+    }
+
+    main p {
+      width: 90%;
+      max-width: 960px;
+      margin: 0 auto;
+      margin: 30px auto;
+      color: #3c5e94;
+    }
+
+    footer {
+      width: 100%;
+      position: fixed;
+      z-index: -1;
+      bottom: 0;
+      background: #2d4770;
+      height: 200px;
+    }
+
+    footer ul {
+      max-width: 300px;
+      width: 90%;
+      margin: 30px auto;
+    }
+
+    footer ul::after,
+    footer ul::before {
+      content: "";
+      display: table;
+    }
+
+    footer ul::after {
+      clear: both;
+    }
+
+    footer ul li {
+      float: left;
+      text-align: center;
+      width: 33.333%;
+    }
+
+    footer ul a {
+      color: white;
+    }
+
+    footer ul a i {
+      font-size: 3em;
+    }
+
+    footer ul a:hover {
+      color: #dbdbdb;
+      -webkit-text-shadow: 1px 1px 0 #000;
+      -moz-text-shadow: 1px 1px 0 #000;
+      text-shadow: 1px 1px 0 #000;
+    }
+
+    footer p {
+      font-size: 1.7em;
+      color: white;
+      margin-top: 20px;
+      text-align: center;
+    }
   </style>
   <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script>
   <script async src="./newprebid.js"></script>
@@ -164,7 +310,7 @@
         code: 'test11',
         mediaTypes: {
           banner: {
-            sizes: [[250, 200],[500, 350], [300, 600]]
+            sizes: [[250, 200], [500, 350], [300, 600]]
           }
         },
         bids: [
@@ -181,7 +327,7 @@
         code: 'test113',
         mediaTypes: {
           banner: {
-            sizes: [[250, 200],[500, 350], [300, 600]]
+            sizes: [[250, 200], [500, 350], [300, 600]]
           }
         },
         bids: [
@@ -488,7 +634,7 @@
 
     body {
       margin: 0;
-      padding: 25px;
+      /* padding: 25px; */
     }
 
     iframe body {
@@ -502,65 +648,70 @@
 </head>
 
 <body>
-  <h2>Prebid.js Test</h2>
-  <div class="article">Article</div>
-  <div id='test1'></div>
-  <div class="article">Article</div>
-  <div id='test11'></div>
-  <div class="article">Article</div>
-  <div id='test111'></div>
-  <div class="article">Article</div>
-  <div id='test2'></div>
-  <div class="article">Article</div>
-  <div id='test3'></div>
-  <div class="article">Article</div>
-  <div id='test4'></div>
-  <div class="article">Article</div>
-  <div id='test5'></div>
-  <div style="margin-bottom: 130px;"></div>
-  <div id='test15'></div>
-  <div class="article">Article</div>
-  <div id='test6'></div>
-  <div class="article">Article</div>
-  <!-- <div id="video1" style="width:640px; height:480px;"></div> -->
-  <div class="article">Article</div>
-  <div style="margin-bottom: 30px;"></div>
-  <div class="article">Article</div>
-  <div style="margin-top: 75vh; margin-bottom: 15vh;" id='test113'></div>
-  <!-- <div id="video2" style="width:640px; height:480px;"></div> -->
-  <div class="article">Article</div>
-  </div>
-  <!-- <div style="width:604px; height:341px;">
-    <div id="akamai-player"></div>
-  </div> -->
-  <div id="div-test">
+  <header>
+    <nav role='navigation'>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Prebid.js Test</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+      dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+      lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+      esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
+      dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber
+      tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+      Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes
+      demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui
+      sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram,
+      anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc
+      nobis videntur parum clari, fiant sollemnes in futurum.</p>
+    <div class="article">Article</div>
+    <div id='test1'></div>
+    <div class="article">Article</div>
+    <div id='test11'></div>
+    <div class="article">Article</div>
+    <div id='test111'></div>
+    <div class="article">Article</div>
+    <div id='test2'></div>
+    <div class="article">Article</div>
+    <div id='test3'></div>
+    <div class="article">Article</div>
+    <div id='test4'></div>
+    <div class="article">Article</div>
+    <div id='test5'></div>
+    <div style="margin-bottom: 130px;"></div>
+    <div id='test15'></div>
+    <div class="article">Article</div>
+    <div id='test6'></div>
+    <div class="article">Article</div>
+    <!-- <div id="video1" style="width:640px; height:480px;"></div> -->
+    <div class="article">Article</div>
+    <div style="margin-bottom: 30px;"></div>
+    <div class="article">Article</div>
+    <div style="margin-top: 75vh; margin-bottom: 15vh;" id='test113'></div>
+    <!-- <div id="video2" style="width:640px; height:480px;"></div> -->
+    <div class="article">Article</div>
+    </div>
+    <div id="div-test">
 
-  </div>
-  <!-- <script type="text/javascript">
-    invokeVideoPlayer = function (url, id) {
-      console.log('videoUrl', url)
-      const bids = pbjs.getHighestCpmBids()
-      console.log('bids high', bids);
-      const bidVideo = bids.find(bid => bid.mediaType === 'video')
-      console.log('bidVideo', bidVideo)
-      AdPlayerPro(id).setup({
-        "file": "https://static.adplayer.pro/video/640.mp4",
-        "width": 640,
-        "height": 480,
-        "autoStart": true,
-        "muted": true,
-        "advertising": {
-          "tag": bidVideo?.vastUrl ?? ''
-        }
-      });
-    };
+    </div>
+  </main>
+  <footer>
+    <ul>
+      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+      <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+    </ul>
+    <p id="copy">By <a href="www.bddesign.es" title="BD Design">BD Design</a></p>
+  </footer>
 
-    if (tempTag && domId) {
-      invokeVideoPlayer(tempTag, domId);
-      tempTag = false;
-      domId = false;
-    }
-  </script> -->
+
 </body>
 
 </html>
