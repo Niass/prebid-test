@@ -48,46 +48,6 @@
       font-size: 1.3em;
     }
 
-    header {
-      background: #3c5e94;
-    }
-
-    header nav {
-      width: 90%;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-
-    header nav::after,
-    header nav::before {
-      content: "";
-      display: table;
-    }
-
-    header nav::after {
-      clear: both;
-    }
-
-    header nav li a {
-      float: left;
-      width: 25%;
-      text-align: center;
-      padding: 1em;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-      box-sizing: border-box;
-      color: white;
-      text-decoration: none;
-    }
-    header nav li  {
-      list-style-type: none;
-    }
-
-    header nav li a:hover {
-      background: #4c76b7;
-    }
-
     main {
       margin: 0px auto 200px;
       padding: 10px 25px;
@@ -678,19 +638,49 @@
     .article {
       margin: 20px 0;
     }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      /* Set the navbar to fixed position */
+      top: 0;
+      /* Position the navbar at the top of the page */
+      width: 100%;
+      /* Full width */
+    }
+
+    /* Links inside the navbar */
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Change background on mouse-over */
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    /* Main content */
+    .main {
+      margin-top: 30px;
+      /* Add a top margin to avoid content overlay */
+    }
   </style>
 </head>
 
 <body>
   <header>
-    <nav role='navigation'>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Clients</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
+    <nav role='navigation' class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact Us</a>
   </header>
   <main>
     <h2>Prebid.js Test</h2>
