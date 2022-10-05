@@ -1,0 +1,86 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<VAST version="2.0">
+<Ad id="1078280505">
+<InLine>
+<AdSystem>
+<![CDATA[ MediaMind ]]>
+</AdSystem>
+<AdTitle>
+<![CDATA[ SFR_MomentIdeal_Papi_20s_VOL_Lego_BTS_1920x1080_MOB_10MB ]]>
+</AdTitle>
+<Description>
+<![CDATA[ SFR_MomentIdeal_Papi_20s_VOL_Lego_BTS_1920x1080_MOB_10MB ]]>
+</Description>
+<Impression id="Impression">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=display&pl=VAST&optOut=0&pos=5174&c=24&ai=1087976134&pluid=0&gdpr_consent=&gdpr=0&ord=5232969987975442801&dg=1077242720&sdg=1078160044&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&sessionid=7959676307999755597&pcp=&vurl= ]]>
+</Impression>
+<Impression id="AgencyImpTrackingURL_1">
+<![CDATA[ https://secure-gl.imrworldwide.com/cgi-bin/m?ca=nlsn349717&cr=1087976134&ce=48574&pc=1078280505&ci=nlsnci1578&am=5&at=view&rt=banner&st=image&r=5232969987975442801 ]]>
+</Impression>
+<Impression>
+<![CDATA[ https://unified.adsafeprotected.com/pixel.png?eyJ0eXBlIjoiU0VDT05EQVJZX0lNUFJFU1NJT04iLCJwdWJsaXNoZXJVdWlkIjoiYTVkYjAyYjAtMmI3OC00OWEzLTg0ZmYtMDA1NTlkNjk3Y2I5Iiwic2l0ZVV1aWQiOiJhZmRkZWY1ZC1jMjA0LTQwYTktYjRmYi05NjVhMTQ1ZDA2OTYiLCJjdXN0b20iOnsiY3VzdG9tMSI6IiIsImN1c3RvbTIiOiIyLjAiLCJjdXN0b20zIjoiMi4wIiwiY3VzdG9tNyI6IjExMzgxODkiLCJjdXN0b204IjoiNjUwMjA2OTkiLCJ4c2lkIjoiZjJmNTIwM2YtOWJmYy00MGFkLWE2ZWItNDFkNTExY2JhMTNhIn0sImhlYWRlcnMiOnsiaGVhZGVyMTEiOiJNZWRpYU1pbmQiLCJoZWFkZXIxMiI6ImJzLnNlcnZpbmctc3lzLmNvbSIsImhlYWRlcjgiOiJpYXNvIiwiaGVhZGVyOSI6IiJ9LCJjYiI6IjE2NjQ5ODUxMzcyMjQ1MDI1MTgiLCJhZER1cmF0aW9uIjotMX0=&advEntityId=1138189&pubEntityId=65020699&key1=ROKU_ADS_APP_ID&key2=$APP_STOREURL ]]>
+</Impression>
+<Creatives>
+<Creative id="1087976134" sequence="1" AdID="1087976134">
+<Linear>
+<Duration>00:00:30</Duration>
+<TrackingEvents>
+<Tracking event="creativeView">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5ECreativeView.Linear.2088104461%7E0%7E2088104461%7E01000&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+<Tracking event="creativeView">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&0&interactionsStr=1087976134%7E%7E0%5EebAdStart%7E0%7E0%7E1%7E0%7E1%7E2088104461%7E0&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5EebVideoStarted%7E0%7E2088104461%7E01010&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5Eeb25Per_Played%7E0%7E2088104461%7E01010&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5Eeb50Per_Played%7E0%7E2088104461%7E01010&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5Eeb75Per_Played%7E0%7E2088104461%7E01010&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5EebVideoFullPlay%7E0%7E2088104461%7E01010&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5EebVideoMute%7E0%7E2088104461%7E01110&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5EebVideoUnmute%7E0%7E2088104461%7E01110&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5EebVideoPause%7E0%7E2088104461%7E01110&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+<Tracking event="fullscreen">
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5EebFSStart%7E0%7E2088104461%7E01110&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597 ]]>
+</Tracking>
+</TrackingEvents>
+<AdParameters>
+<![CDATA[ {"mediaFiles":[{"id":"2088104507","delivery":"progressive","type":"video/mp4","bitrate":638,"width":640,"height":360,"scalable":"true","maintainAspectRatio":"true","uri":"https://media.istockphoto.com/videos/doctor-visiting-a-patient-in-a-hospital-ward-video-id1395395986"},{"id":"2088104510","delivery":"progressive","type":"video/webm","bitrate":641,"width":640,"height":360,"scalable":"true","maintainAspectRatio":"true","uri":"https://secure-ds.serving-sys.com/resources/PROD/asset/5701/VIDEO/20220811/SFR_MomentIdeal_Papi_20s_VOL_Lego_BTS_1920x1080_MOB_10MB_72927573379661385.WEBM"}],"clickThroughUrl":"","clickTrackingUrl":null,"duration":20,"wrapperId":"zvkvfy2j","customDimensions":{"190":"FW","197":"1138189","198":"65020699","182":"https%3A%2F%2Fstatic.adsafeprotected.com%2Fias%2Fv1%2Fvpaid.2022.10.04-17.25-440b14b.js","188":"lon1","189":"droplet"},"trackingHost":"unified.adsafeprotected.com","plugins":[{"id":"ias","config":{"isMonitoring":"true","partner":"iaso","xmapp":0,"xmtp":"v","xsId":"f2f5203f-9bfc-40ad-a6eb-41d511cba13a"}},{"id":"ias.fw","config":{"advEntityId":"1138189","pubEntityId":"65020699"}},{"id":"play","config":{"acceptMedia":"^video/"}},{"id":"skip","config":{"acceptMedia":"^video/"}}],"blockedAdTracking":"","ppath":"https://unified.adsafeprotected.com"} ]]>
+</AdParameters>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&iv=2&interactionsStr=1087976134%7E%7E0%7E%7E%7E%5EClick.Linear.2088104461%7E0%7E2088104461%7E11100&pos=5174&ebRandom=5232969987975442801&dg=1077242720&ta=-1&usercookie=u2=244a47ba-bc8f-4ec5-8e2a-83a350dff3bc&gdpr_consent=&gdpr=0&sessionid=7959676307999755597&rtu=$$https://www.sfr.fr/offre-internet$$ ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[ https://unified.adsafeprotected.com/pixel.png?eyJ0eXBlIjoiQ0xJQ0tfVFJBQ0tJTkciLCJwdWJsaXNoZXJVdWlkIjoiYTVkYjAyYjAtMmI3OC00OWEzLTg0ZmYtMDA1NTlkNjk3Y2I5Iiwic2l0ZVV1aWQiOiJhZmRkZWY1ZC1jMjA0LTQwYTktYjRmYi05NjVhMTQ1ZDA2OTYiLCJjdXN0b20iOnsiY3VzdG9tMSI6IiIsImN1c3RvbTIiOiIyLjAiLCJjdXN0b20zIjoiMi4wIiwiY3VzdG9tNyI6IjExMzgxODkiLCJjdXN0b204IjoiNjUwMjA2OTkiLCJlbmNvZGVkIjoiZmFsc2UiLCJ2cGFpZCI6ImZhbHNlIiwieHNpZCI6ImYyZjUyMDNmLTliZmMtNDBhZC1hNmViLTQxZDUxMWNiYTEzYSJ9LCJoZWFkZXJzIjp7ImhlYWRlcjExIjoiTWVkaWFNaW5kIiwiaGVhZGVyMTIiOiJicy5zZXJ2aW5nLXN5cy5jb20iLCJoZWFkZXI4IjoiaWFzbyIsImhlYWRlcjkiOiIifSwiY2IiOiIxNjY0OTg1MTM3MjI0MDI5MDUxIiwiYWREdXJhdGlvbiI6LTE0NzQ4MzY0ODB9&advEntityId=1138189&pubEntityId=65020699 ]]>
+</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" type="application/javascript" width="640" height="360" apiFramework="VPAID">
+<![CDATA[ https://static.adsafeprotected.com/ias/v1/vpaid.2022.10.04-17.25-440b14b.js ]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+<Creative id="1087976134" sequence="1" AdID="1087976134">
+<CompanionAds/>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
